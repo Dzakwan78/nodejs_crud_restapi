@@ -8,7 +8,6 @@ app.use(express.json());
 app.use('/categories', require('./routes/categoryRoutes'));
 app.use('/products', require('./routes/productRoutes'));
 
-// endpoint test (opsional tapi disarankan)
 app.get('/', (req, res) => {
   res.json({ message: 'API berjalan' });
 });
