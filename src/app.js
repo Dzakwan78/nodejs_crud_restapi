@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// middleware untuk membaca JSON
+
 app.use(express.json());
 
 // routes
