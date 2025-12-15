@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
   res.json({ message: 'API berjalan' });
 });
 
-module.exports = app;
+module.exports = app; 
